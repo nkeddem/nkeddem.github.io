@@ -1,3 +1,24 @@
+/* unvisited link */
+a:link {
+    color: #000000;
+}
+
+/* visited link */
+a:visited {
+    color: #666666;
+}
+
+/* mouse over link */
+a:hover {
+    color: #888888;
+}
+
+/* selected link */
+a:active {
+    color: #888888;
+}
+
+
 body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; background-color:#DDDDDD;}
 
 /*----------------------------------------------HTML 5 Overrides-------------------------------------*/
@@ -22,3 +43,4 @@ h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-weight:normal; font-style:norma
 /*--Content--*/
 #container #title{text-align: center;}
 #container #txt{}
+
