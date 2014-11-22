@@ -28,7 +28,7 @@ body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman"
 
 #header, #pic, #container{margin-left: auto; margin-right: auto; background-color:#EEEEEE;}
 
-h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-weight:normal; font-style:normal; line-height:normal;}
+h1, h2, h3, h4, h5, h6{margin:0; padding:5px; font-weight:normal; font-style:normal; line-height:normal;}
 
 /*----------------------------------------------Header-------------------------------------*/
 
@@ -42,4 +42,5 @@ h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-weight:normal; font-style:norma
 /*--Content--*/
 #container #title{text-align: center;}
 #container #txt{}
+#container #footer{text-align: center;}
 
