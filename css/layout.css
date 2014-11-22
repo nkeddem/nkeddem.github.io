@@ -18,7 +18,6 @@ a:active {
     color: #888888;
 }
 
-
 body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; background-color:#DDDDDD;}
 
 /*----------------------------------------------HTML 5 Overrides-------------------------------------*/
@@ -33,12 +32,12 @@ h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-weight:normal; font-style:norma
 
 /*----------------------------------------------Header-------------------------------------*/
 
-#header{width:860px; height:20px;  text-align: center;}
-#pic{display: block; width:960px;}
+#header{width:860px; height:20px; text-align: center; border-width: 2px; border-top-style: solid; border-right-style: solid; border-bottom-style: none; border-left-style: solid;}
+#pic{display: block; width:960px; border-width: 4px; border-style: solid;}
 
 /*----------------------------------------------Content Container-------------------------------------*/
 
-#container{width:860px;}
+#container{width:860px; border-width: 2px; border-top-style: none; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;}
 
 /*--Content--*/
 #container #title{text-align: center;}
